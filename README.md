@@ -17,6 +17,6 @@ Here are some ideas to get you started:
 
 #### Stats
 
-![Metrics](https://raw.githubusercontent.com/avg00r/avg00r/master/github-metrics.svg)
+![Metrics](https://raw.githubusercontent.com/avg00r/avg00r/main/github-metrics.svg)
 
 ![Counter](https://komarev.com/ghpvc/?username=avg00r&color=green&style=flat&label=Views+Since+Feb2022)
