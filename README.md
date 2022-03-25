@@ -14,4 +14,9 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-![](https://komarev.com/ghpvc/?username=avg00r&color=green&style=flat&label=Views+Since+Feb2022)
+
+#### Stats
+
+![Metrics](https://raw.githubusercontent.com/avg00r/avg00r/master/github-metrics.svg)
+
+![Counter](https://komarev.com/ghpvc/?username=avg00r&color=green&style=flat&label=Views+Since+Feb2022)
