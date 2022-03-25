@@ -1,0 +1,23 @@
+name: Metrics
+
+# Controls when the action will run. 
+on:
+  # Triggers the workflow on push or pull request events but only for the main branch
+  # Schedule daily updates
+  schedule: [{cron: "0 0 * * *"}]
+  # (optional) Run workflow manually
+  workflow_dispatch:
+  # (optional) Run workflow when pushing on master/main
+  push: {branches: ["master", "main"]}
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build-github-metric"
+  build-github-metrics:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      - uses: lowlighter/metrics@v3.22
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
